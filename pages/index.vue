@@ -1,40 +1,33 @@
 <template>
   <section class="container">
     <div>
-      <logo />
-      <logo />
-      <logo />
+      
       <h1 class="title">
         trumpGame
       </h1>
       <h2 class="subtitle">
-        My brilliant Nuxt.js project
+        神経衰弱
       </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >GitHub</a>
-      </div>
+      <ima/>
     </div>
   </section>
 </template>
 
 <script>
 import Logo from '~/components/Logo.vue'
+import Ima from '~/components/Ima.vue'
 
 export default {
   components: {
-    Logo
+    Logo,
+    Ima
   }
 }
+
+
+
 </script>
+
 
 <style>
 .container {
